@@ -16,6 +16,12 @@ div.navbar {
     background-color: #05A7DD;
 }
 
+section.jumbotron{
+
+    padding-top: 20%;
+
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
