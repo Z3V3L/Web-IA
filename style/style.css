@@ -6,20 +6,31 @@
 
 
 /* Palette
-    pink: #E953D1;
-    Orange: #ffad5b;
+
     Blue: #4068DF;
-    Cyan: #8EA7EF; 
+    Gray
+
 */
 
 div.navbar {
-    background-color: #05A7DD;
+    background-color: #253eb0;
 }
 
+div#navbarHeader{
+    background-color: #444d56;
+}
 section.jumbotron{
+    padding: 15rem 4rem;
+}
 
-    padding-top: 20%;
+.form-check {
+    padding-left: 2.6rem;
+}
 
+footer {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    
 }
 
 .bd-placeholder-img {
