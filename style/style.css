@@ -19,6 +19,15 @@ div.navbar {
 div#navbarHeader{
     background-color: #444d56;
 }
+
+.text-muted{
+    color:#909eaa !important;
+}
+
+html body header div.navbar.navbar-dark.shadow-sm div.container.d-flex.justify-content-between a strong {
+    margin: 0px 10px;
+}
+
 section.jumbotron{
     padding: 15rem 4rem;
 }
@@ -28,8 +37,7 @@ section.jumbotron{
 }
 
 footer {
-    margin-top: 2rem;
-    margin-bottom: 0px;
+    margin: 1.5rem 0;
     
 }
 
