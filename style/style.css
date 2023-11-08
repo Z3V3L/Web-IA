@@ -20,20 +20,28 @@ div#navbarHeader{
     background-color: #444d56;
 }
 
-.text-muted{
+.text-muted{                /* Sobre nosotros */
     color:#909eaa !important;
 }
 
-html body header div.navbar.navbar-dark.shadow-sm div.container.d-flex.justify-content-between a strong {
+div.container.d-flex.justify-content-between a strong {       /* Logo */
     margin: 0px 10px;
 }
 
-section.jumbotron{
+section.jumbotron{          /* Página principal */
     padding: 15rem 4rem;
 }
 
-.form-check {
+p.font-weight-bold {        /* Preguntas */
+    margin-top: 2rem;;
+}
+
+.form-check {               /* Opciones */
     padding-left: 2.6rem;
+}
+
+html body main div.container div.row.justify-content-end div.col-sm-5 button.btn.btn-primary { /* Boton */
+    margin: 0px;
 }
 
 footer {
@@ -41,6 +49,8 @@ footer {
     
 }
 
+
+/* -------------------- Bootstrap -------------------- */
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -55,3 +65,4 @@ footer {
     font-size: 3.5rem;
     }
 }
+/* -------------------- End Bootstrap -------------------- */
