@@ -30,11 +30,11 @@ function radioPercent(){
         $('#btn-continuar').show();
 
         if(porcentaje >= 57){
-            result1 += "<b>¡Abusas del uso de Inteligencia artificial!</b><br><br>"
+            result1 += "<b style='color:red'>¡Abusas del uso de Inteligencia artificial!</b><br><br>"
         }else if(porcentaje < 57 && porcentaje > 35){
-            result1 += "<b>Abusas un poco de la Inteligencia artificial, ¡cuidado!</b><br><br>"
+            result1 += "<b style='color:yellow;text-shadow:  1px 1px 4px #000000;'>Abusas un poco de la Inteligencia artificial, ¡cuidado!</b><br><br>"
         }else{
-            result1 += "<b>Utilizas la Inteligencia artificial adecuadamente, ¡Muy bien!</b><br><br>"
+            result1 += "<b style='color:green'>Utilizas la Inteligencia artificial adecuadamente, ¡Muy bien!</b><br><br>"
         }
          
         //Código que muestra el porcentaje 

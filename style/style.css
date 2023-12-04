@@ -40,13 +40,14 @@ p.font-weight-bold {        /* Preguntas */
     padding-left: 2.6rem;
 }
 
-a.btn.btn-primary { /* Boton */
+a.btn.btn-primary {         /* Boton */
     margin: 0px;
     color: white;
 }
 #btn-enviarEncuesta {
     margin-left: 1.5rem;
     margin-top: 1rem;
+    
 }
 
 footer {
