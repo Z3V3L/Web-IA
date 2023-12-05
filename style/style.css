@@ -5,13 +5,6 @@
 }
 
 
-/* Palette
-
-    Blue: #4068DF;
-    Gray
-
-*/
-
 div.navbar {
     background-color: #253eb0;
 }
@@ -49,6 +42,7 @@ a.btn.btn-primary {         /* Boton */
     margin-top: 1rem;
     
 }
+
 
 footer {
     margin: 1.5rem 0;
